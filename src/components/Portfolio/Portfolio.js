@@ -31,7 +31,7 @@ const Portfolio = ({content}) => {
                         data.map(el =>
                             <div className="portfolio__slide">
                                 <a href={el.link} target="_blank">
-                                    <img src={el.href} alt={el.title} className="portfolio__slide__image"/>
+                                    <img src={process.env.PUBLIC_URL + el.href} alt={el.title} className="portfolio__slide__image"/>
                                 </a>
                                 <a target="_blank" className="portfolio__slide__title" href={el.link}>{el.title}</a>
                             </div>

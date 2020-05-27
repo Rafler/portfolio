@@ -1,36 +1,36 @@
 [
   {
-    "href": "assets/images/upqode.png",
+    "href": "/assets/images/upqode.png",
     "title": "UPQODE - Landing page",
     "link": "https://rafler.github.io/testUPQODE/"
   },
   {
-    "href": "assets/images/todo.png",
+    "href": "/assets/images/todo.png",
     "title": "Todo app",
     "link": "https://rafler.github.io/react_todo-app/"
   },
   {
-    "href": "assets/images/filmer.png",
+    "href": "/assets/images/filmer.png",
     "title": "Filmer - Keyboard navigation",
     "link": "https://rafler.github.io/vodworks/"
   },
   {
-    "href": "assets/images/pokemon.png",
+    "href": "/assets/images/pokemon.png",
     "title": "Pokemon Go - API",
     "link": "https://rafler.github.io/Teamvoy/"
   },
   {
-    "href": "assets/images/dia.png",
+    "href": "/assets/images/dia.png",
     "title": "Dia - Landing page",
     "link": "https://rafler.github.io/layout_dia/"
   },
   {
-    "href": "assets/images/miami.png",
+    "href": "/assets/images/miami.png",
     "title": "Miami landing page",
     "link": "https://rafler.github.io/layout_miami/"
   },
   {
-    "href": "assets/images/ubereats.png",
+    "href": "/assets/images/ubereats.png",
     "title": "Uber eats - Landing page",
     "link": "https://rafler.github.io/uber-eats/"
   }

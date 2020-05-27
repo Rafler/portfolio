@@ -32,7 +32,7 @@ const Skills = ({content}) => {
                     {
                         data.map(el =>
                             <div className="skills__slide">
-                                <img src={el.href} alt="logo" className="skills__slide__image"/>
+                                <img src={process.env.PUBLIC_URL + el.href} alt="logo" className="skills__slide__image"/>
                                 <div className="star-rating" title={el.rate / 5}/>
                             </div>
                         )
