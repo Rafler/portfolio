@@ -12,7 +12,7 @@ const Home = ({lang, setLang, content}) => {
                 <p className="home__info__description">{content.DESCRIPTION}</p>
                 <LanguageChange lang={lang} setLang={setLang}/>
             </div>
-            <img src="/assets/images/person.jpg" alt="photo" className="home__image"/>
+            <img src="assets/images/person.jpg" alt="photo" className="home__image"/>
         </section>
     );
 };
