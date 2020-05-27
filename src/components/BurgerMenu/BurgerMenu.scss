@@ -1,0 +1,58 @@
+@import '../../_colors.scss';
+
+.burger-menu {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  height: 100vh;
+  opacity: 0;
+  width: 100vw;
+  background: $light-main-bg-color;
+  z-index: 10;
+  transition: .4s linear;
+  display: flex;
+  flex-direction: column;
+
+  &.open {
+    opacity: 1;
+    right: 0;
+    transition: all .5s;
+  }
+
+  &__nav {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    padding-top: 50px;
+
+    &__link {
+      margin-bottom: 8%;
+      font-family: Gilroy-Bold, sans-serif;
+      font-size: 34px;
+      line-height: 40px;
+      text-decoration: none;
+      color: $light-font-color;
+      cursor: pointer;
+
+      &:first-child {
+        color: $light-font-primary-color;
+      }
+    }
+  }
+
+  .switch {
+    margin-top: 18px;
+    margin-bottom: 28px;
+    position: relative;
+    left: 30px;
+  }
+
+  .language-change {
+    font-size: 34px;
+    line-height: 40px;
+    align-self: flex-end;
+    transform: rotate(90deg);
+    margin-top: auto;
+    margin-bottom: calc(97.64px + 1%);
+  }
+}

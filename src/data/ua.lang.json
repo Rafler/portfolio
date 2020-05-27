@@ -1,0 +1,30 @@
+{
+  "HEADER": {
+    "HOME": "Домашня",
+    "ABOUT": "Про мене",
+    "SKILLS": "Навички",
+    "PORTFOLIO": "Портфоліо",
+    "CONTACTS": "Контакти"
+  },
+  "HOME": {
+    "TITLE": "Андрій\nМиронюк",
+    "DESCRIPTION": "Front end розробник \n19 років, Львів, Україна"
+  },
+  "ABOUT": {
+    "TITLE": "Про мене",
+    "DESCRIPTION": "Hi , I am hard-working Frontend Developer with a flair for creating elegant solutions in the least amount of time.\n\nI have good knowledge of HTML5/CSS3/JS stack. Well familiar with the React framework. Keep improving in JavaScript programming. Passionate about web developer meetups and hackathons.\n\nI am goal-oriented, plan my time efficiently, and strive for professional development."
+  },
+  "SKILLS": {
+    "TITLE": "Уміння",
+    "DESCRIPTION": "Я працюю з такими технолоніями:"
+  },
+  "PORTFOLIO": {
+    "TITLE": "Портфоліо"
+  },
+  "CONTACTS": {
+    "TITLE": "Контакти",
+    "DESCRIPTION": "Хочеш взнати більше або просто поспілкуватися?\nЗапрошую!",
+    "BUTTON": "Надіслати повідомлення",
+    "MESSAGE": "Лайкни мене на\nLinkedIn та Instagram"
+  }
+}

@@ -1,0 +1,70 @@
+[
+  {
+    "href": "/assets/images/js.png",
+    "rate": 4
+  },
+  {
+    "href": "/assets/images/react.png",
+    "rate": 4
+  },
+  {
+    "href": "/assets/images/redux.png",
+    "rate": 4
+  },
+  {
+    "href": "/assets/images/nextjs.png",
+    "rate": 3
+  },
+  {
+    "href": "/assets/images/coffeescript.png",
+    "rate": 3
+  },
+  {
+    "href": "/assets/images/typescript.png",
+    "rate": 1
+  },
+  {
+    "href": "/assets/images/angular.png",
+    "rate": 1
+  },
+  {
+    "href": "/assets/images/jquery.png",
+    "rate": 3
+  },
+  {
+    "href": "/assets/images/reactnative.jpg",
+    "rate": 3
+  },
+  {
+    "href": "/assets/images/ionic.png",
+    "rate": 2
+  },
+  {
+    "href": "/assets/images/html.png",
+    "rate": 5
+  },
+  {
+    "href": "/assets/images/css.png",
+    "rate": 5
+  },
+  {
+    "href": "/assets/images/sass.png",
+    "rate": 5
+  },
+  {
+    "href": "/assets/images/semantic.png",
+    "rate": 5
+  },
+  {
+    "href": "/assets/images/bootstrap.png",
+    "rate": 5
+  },
+  {
+    "href": "/assets/images/styledcomponents.png",
+    "rate": 4
+  },
+  {
+    "href": "/assets/images/git.png",
+    "rate": 4
+  }
+]

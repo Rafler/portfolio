@@ -1,0 +1,40 @@
+@import '../../_colors.scss';
+
+.main-header {
+  width: 65%;
+  border-bottom: 1px solid $light-font-color;
+  display: flex;
+  flex-flow: row nowrap;
+  padding: 32px 0;
+  justify-content: space-between;
+  margin: 0 auto;
+  @media screen and (max-width: 770px) {
+    display: none;
+  }
+
+  &__link {
+    font-family: Gilroy-Bold, sans-serif;
+    text-decoration: none;
+    color: $light-font-color;
+    cursor: pointer;
+    transition: color 0.2s ease-in;
+
+    &:hover {
+      color: darken($light-font-color, 25%);
+    }
+
+    &:active {
+      color: $light-font-primary-color;
+    }
+
+    &:first-child {
+      color: $light-font-primary-color;
+    }
+  }
+
+  .switch {
+    position: absolute;
+    top: 29px;
+    right: 4%;
+  }
+}

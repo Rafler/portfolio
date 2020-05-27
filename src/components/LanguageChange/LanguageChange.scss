@@ -1,0 +1,22 @@
+@import '../../_colors.scss';
+
+.language-change {
+  cursor: pointer;
+  align-self: center;
+  font-family: Gilroy-Bold, sans-serif;
+  font-size: 16px;
+  line-height: 19px;
+  transform: rotate(-90deg);
+
+  .unactive {
+    color: $light-font-color;
+
+    &:hover {
+      color: darken($light-font-color, 15%);
+    }
+
+    &:active {
+      color: $light-font-primary-color;
+    }
+  }
+}

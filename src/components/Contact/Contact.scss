@@ -1,0 +1,79 @@
+@import '../../_colors.scss';
+
+.contact {
+  padding: 110px 0 65px;
+
+  .title {
+    margin-bottom: 20px;
+  }
+
+  .description {
+    margin-bottom: 30px;
+  }
+
+  &__button {
+    display: table;
+    border: none;
+    background-color: $light-font-primary-color;
+    color: $light-main-bg-color;
+    border-radius: 50px;
+    font-family: Gilroy-Bold, sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    padding: 10px 30px;
+    cursor: pointer;
+    outline: none;
+    margin: auto auto 85px;
+    text-decoration: none;
+    transition: transform 0.3s ease-out;
+
+    &:hover {
+      transform: scale(1.2);
+    }
+
+    &:active {
+      opacity: 0.8;
+    }
+  }
+
+  &__media {
+    display: flex;
+    justify-content: center;
+    margin: auto auto 50px;
+
+    &__link {
+      position: relative;
+      background: $light-font-primary-color;
+      width: 40px;
+      height: 40px;
+      transition: transform 0.3s ease-out;
+
+      &:hover {
+        transform: scale(1.2);
+      }
+
+      &.inst {
+        mask-image: url("/assets/images/instagram.svg");
+      }
+
+      &.linkedin {
+        mask-image: url("/assets/images/linkedin.svg");
+      }
+
+      &:first-child {
+        margin-right: 60px;
+      }
+    }
+  }
+
+  &__message {
+    font-family: Gilroy-Medium, sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    display: table;
+    margin: auto;
+    color: $light-font-color;
+  }
+}

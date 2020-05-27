@@ -1,0 +1,96 @@
+@import "colors";
+
+.darkTheme {
+  .gray {
+    background-color: $dark-bg-color;
+  }
+
+  .main-header {
+    border-bottom: 1px solid $dark-font-color;
+
+    &__link {
+      color: $dark-font-color;
+
+      &:hover {
+        color: lighten($dark-font-color, 25%);
+      }
+
+      &:active {
+        color: $dark-font-primary-color;
+      }
+
+      &:first-child {
+        color: $dark-font-primary-color;
+      }
+    }
+  }
+
+  .star-rating {
+    color: $dark-star-color;
+
+    &::after {
+      color: $dark-font-primary-color;
+    }
+  }
+
+  .contact {
+    &__button {
+      background-color: $dark-font-primary-color;
+      color: $dark-main-bg-color;
+    }
+
+    &__message {
+      color: $dark-font-color;
+    }
+
+    &__media__link {
+      background: $dark-font-primary-color;
+    }
+  }
+
+  .portfolio .wrapper .arrow {
+    background: $dark-font-primary-color;
+  }
+
+  .portfolio__slide__title {
+    color: $dark-font-primary-color;
+  }
+
+  .skills .wrapper .arrow {
+    background: $dark-font-primary-color;
+  }
+
+  .slick-dots li button:before {
+    color: $dark-font-primary-color;
+  }
+
+  .burger-icon span {
+    background: $dark-font-primary-color;
+  }
+
+  .burger-menu {
+    background: $dark-main-bg-color;
+
+    &__nav__link {
+      color: $dark-font-color;
+
+      &:first-child {
+        color: $dark-font-primary-color;
+      }
+    }
+  }
+
+  .language-change {
+    .unactive {
+      color: $dark-font-color;
+
+      &:hover {
+        color: lighten($dark-font-color, 15%);
+      }
+
+      &:active {
+        color: $dark-font-primary-color;
+      }
+    }
+  }
+}

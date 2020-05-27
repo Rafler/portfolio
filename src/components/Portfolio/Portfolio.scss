@@ -1,0 +1,41 @@
+@import '../../_colors.scss';
+
+.portfolio {
+  position: relative;
+  padding: 100px 0 50px;
+
+  .title {
+    margin-bottom: 50px;
+  }
+
+  .wrapper {
+    max-width: 65%;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  &__slide {
+    outline: none;
+    transition: opacity 0.2s ease-in;
+
+    &:hover {
+      opacity: 0.8;
+    }
+
+    &:active {
+      opacity: 0.5;
+    }
+
+    &__title {
+      display: table;
+      margin: 35px auto 15px;
+      text-decoration-line: underline;
+      cursor: pointer;
+      color: $light-font-primary-color;
+    }
+
+    &__image {
+      width: 100%;
+    }
+  }
+}
