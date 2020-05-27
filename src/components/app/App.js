@@ -50,7 +50,7 @@ function App() {
         setLanguage(value);
     };
 
-    return language && (
+    return (
         <div className={dTheme ? 'darkTheme app' : 'app'}>
             <BurgerMenuIcon click={() => setMenu(!openedMenu)} menu={openedMenu}/>
             <BurgerMenu open={openedMenu} content={CONTENT.HEADER} theme={dTheme} setTheme={themeChange} lang={language}
