@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c0d17d951e975fdad8bab4509fd2d1b7",
+    "revision": "79f6c7d8add5aea8ca8563f8f520bd24",
     "url": "/rafler.github.io/portfolio/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/rafler.github.io/portfolio/static/css/2.93c9daed.chunk.css"
   },
   {
-    "revision": "7f0f47a6265f65773f83",
+    "revision": "6cb47bb6343a25f55e94",
     "url": "/rafler.github.io/portfolio/static/css/main.8df7c099.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/rafler.github.io/portfolio/static/js/2.91977555.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7f0f47a6265f65773f83",
-    "url": "/rafler.github.io/portfolio/static/js/main.a6a99f9a.chunk.js"
+    "revision": "6cb47bb6343a25f55e94",
+    "url": "/rafler.github.io/portfolio/static/js/main.490e88e0.chunk.js"
   },
   {
     "revision": "890fdea45b7822a6fa4e",
