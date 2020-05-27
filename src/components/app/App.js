@@ -31,6 +31,9 @@ function App() {
     useEffect(() => {
         if (openedMenu) {
             document.body.style.overflowY = 'hidden';
+            document.ontouchmove = function(event){
+                event.preventDefault();
+            }
         } else {
             document.body.style.overflowY = 'unset';
         }
