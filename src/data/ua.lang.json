@@ -12,7 +12,7 @@
   },
   "ABOUT": {
     "TITLE": "Про мене",
-    "DESCRIPTION": "Hi , I am hard-working Frontend Developer with a flair for creating elegant solutions in the least amount of time.\n\nI have good knowledge of HTML5/CSS3/JS stack. Well familiar with the React framework. Keep improving in JavaScript programming. Passionate about web developer meetups and hackathons.\n\nI am goal-oriented, plan my time efficiently, and strive for professional development."
+    "DESCRIPTION": "Привіт, я Front End розробник , що має бажання створювати елегантні рішення у найкоротший проміжок часу.\n\nЯ маю хороші знання HTML5 / CSS3 / JS. Добре знайомий з бібліотекою React. Продовжую вдосконалюватися в JavaScript розробці, люблю відвідувати зустрічі веб-розробників і брати участь у хакатонах.\n\nЯ цілеспрямована особистість, яка  ефективно планує свій час та прагне до професійного розвитку."
   },
   "SKILLS": {
     "TITLE": "Уміння",
@@ -25,6 +25,6 @@
     "TITLE": "Контакти",
     "DESCRIPTION": "Хочеш взнати більше або просто поспілкуватися?\nЗапрошую!",
     "BUTTON": "Надіслати повідомлення",
-    "MESSAGE": "Лайкни мене на\nLinkedIn та Instagram"
+    "MESSAGE": "Лайкни та добав мене на\nLinkedIn та Instagram"
   }
 }

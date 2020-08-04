@@ -15,7 +15,6 @@ const Portfolio = ({content}) => {
         slidesToScroll: 1,
         autoplay: true,
         lazyLoad: true,
-        adaptiveHeight: true,
         autoplaySpeed: 5000,
         pauseOnHover: true,
         className: 'slides',

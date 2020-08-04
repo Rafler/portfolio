@@ -9,15 +9,15 @@
   },
   {
     "href": "/assets/images/redux.png",
-    "rate": 4
+    "rate": 3
   },
   {
     "href": "/assets/images/nextjs.png",
-    "rate": 3
+    "rate": 2
   },
   {
     "href": "/assets/images/coffeescript.png",
-    "rate": 3
+    "rate": 4
   },
   {
     "href": "/assets/images/typescript.png",
@@ -29,7 +29,7 @@
   },
   {
     "href": "/assets/images/jquery.png",
-    "rate": 3
+    "rate": 2
   },
   {
     "href": "/assets/images/reactnative.jpg",
@@ -37,7 +37,7 @@
   },
   {
     "href": "/assets/images/ionic.png",
-    "rate": 2
+    "rate": 1
   },
   {
     "href": "/assets/images/html.png",

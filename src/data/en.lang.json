@@ -12,7 +12,7 @@
   },
   "ABOUT": {
     "TITLE": "About me",
-    "DESCRIPTION": "Hi , I am hard-working Frontend Developer with a flair for creating elegant solutions in the least amount of time.\n\nI have good knowledge of HTML5/CSS3/JS stack. Well familiar with the React framework. Keep improving in JavaScript programming. Passionate about web developer meetups and hackathons.\n\nI am goal-oriented, plan my time efficiently, and strive for professional development."
+    "DESCRIPTION": "Hi , I am hard-working Frontend Developer with a flair for creating elegant solutions in the least amount of time.\n\nI have good knowledge of HTML5/CSS3/JS stack. Well familiar with the React. Keep improving in JavaScript programming. Passionate about web developer meetups and hackathons.\n\nI am goal-oriented, plan my time efficiently, and strive for professional development."
   },
   "SKILLS": {
     "TITLE": "Skills",
@@ -25,6 +25,6 @@
     "TITLE": "Contacts",
     "DESCRIPTION": "Want to know more or just chat?\nYou are welcome!",
     "BUTTON": "Send message",
-    "MESSAGE": "Like me on\nLinkedIn and Instagram"
+    "MESSAGE": "Like and add me on\nLinkedIn and Instagram"
   }
 }

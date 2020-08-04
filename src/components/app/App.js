@@ -31,11 +31,10 @@ function App() {
     useEffect(() => {
         if (openedMenu) {
             document.body.style.overflowY = 'hidden';
-            document.ontouchmove = function(event){
-                event.preventDefault();
-            }
+            document.body.style.position = 'fixed'
         } else {
             document.body.style.overflowY = 'unset';
+            document.body.style.position = 'initial'
         }
     }, [openedMenu])
 
@@ -66,6 +65,6 @@ function App() {
             <Contact content={CONTENT.CONTACTS}/>
         </div>
     );
-};
+}
 
 export default App;

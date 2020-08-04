@@ -1,7 +1,5 @@
 @import '../../_colors.scss';
 
-/* Icon 1 */
-
 .burger-icon {
   width: 60px;
   height: 45px;
@@ -19,9 +17,6 @@
   }
 
 }
-
-
-/* Icon 2 */
 
 .burger-icon span {
   display: block;
@@ -46,12 +41,12 @@
 }
 
 .burger-icon span:nth-child(odd) {
-  left: 0px;
+  left: 0;
   border-radius: 9px 0 0 9px;
 }
 
 .burger-icon span:nth-child(1), .burger-icon span:nth-child(2) {
-  top: 0px;
+  top: 0;
 }
 
 .burger-icon span:nth-child(3), .burger-icon span:nth-child(4) {
