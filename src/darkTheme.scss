@@ -36,7 +36,19 @@
   .contact {
     &__button {
       background-color: $dark-font-primary-color;
-      color: $dark-main-bg-color;
+
+      &__text {
+        color: $dark-main-bg-color;
+      }
+
+      &.reversed {
+        background-color: $dark-main-bg-color;
+        border-color: $dark-font-primary-color;
+
+        .contact__button__text {
+          color: $dark-font-primary-color;
+        }
+      }
     }
 
     &__message {

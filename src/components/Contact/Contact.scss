@@ -7,15 +7,22 @@
     margin-bottom: 20px;
   }
 
-  .description {
-    margin-bottom: 30px;
+  &__buttons {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 85px;
+    max-width: 750px;
+    margin-right: auto;
+    margin-left: auto;
+
   }
 
   &__button {
-    display: table;
+    margin: 30px 20px 0;
     border: none;
     background-color: $light-font-primary-color;
-    color: $light-main-bg-color;
     border-radius: 50px;
     font-family: Gilroy-Bold, sans-serif;
     font-size: 18px;
@@ -24,9 +31,13 @@
     padding: 10px 30px;
     cursor: pointer;
     outline: none;
-    margin: auto auto 85px;
-    text-decoration: none;
     transition: transform 0.3s ease-out;
+
+    &__text {
+      color: $light-main-bg-color;
+      text-decoration: none;
+      outline: none;
+    }
 
     &:hover {
       transform: scale(1.2);
@@ -34,6 +45,20 @@
 
     &:active {
       opacity: 0.8;
+    }
+
+    &:first-child {
+      margin-bottom: 0;
+    }
+
+    &.reversed {
+      border: 2px solid $light-font-primary-color;
+      background-color: $light-main-bg-color;
+
+      .contact__button__text {
+        color: $light-font-primary-color;
+      }
+
     }
   }
 

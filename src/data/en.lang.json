@@ -24,7 +24,11 @@
   "CONTACTS": {
     "TITLE": "Contacts",
     "DESCRIPTION": "Want to know more or just chat?\nYou are welcome!",
-    "BUTTON": "Send message",
+    "BUTTON": {
+      "MAIL": "Send message",
+      "CV": "Save CV"
+    },
+
     "MESSAGE": "Like and add me on\nLinkedIn and Instagram"
   }
 }
